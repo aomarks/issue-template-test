@@ -4,6 +4,6 @@ contact_links:
     url: https://github.com/lit/lit.dev/issues/
     about: For bugs or features related to the content on lit.dev, please file an issue on the lit.dev repo.
 
-  - name: Discussions
+  - name: ❓ Questions, Help, Support
     url: https://github.com/lit/lit/discussions
-    about: For questions, support, new project ideas, or project sharing, please see the discussions board.
+    about: If you have a question about using Lit, please see the Discussions board.
