@@ -28,18 +28,6 @@ body:
         - Task (@lit-labs/task)
         - Other/unknown
 
-  - type: dropdown
-    id: regression
-    validations:
-      required: true
-    attributes:
-      label: Is this a regression?
-      multiple: true
-      options:
-        - Yes. This used to work, but now it doesn't
-        - No/unsure. This has never worked, or I didn't try before now.
-
-
   - type: textarea
     id: description
     validations:
