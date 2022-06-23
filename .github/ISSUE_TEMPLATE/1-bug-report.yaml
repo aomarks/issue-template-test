@@ -34,7 +34,7 @@ body:
       required: true
     attributes:
       label: Is this a regression?
-      multiple: true
+      multiple: false
       options:
         - Yes, this used to work, but now it doesn't
         - No/unsure. This has never worked, or I haven't tried before.
