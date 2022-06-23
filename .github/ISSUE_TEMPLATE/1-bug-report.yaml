@@ -28,7 +28,7 @@ body:
       required: true
     attributes:
       label: Which version are you using?
-      placeholder: lit-element@3.2.0
+      placeholder: 3.2.0
 
   - type: textarea
     id: description
