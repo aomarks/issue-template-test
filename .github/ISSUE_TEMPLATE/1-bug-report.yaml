@@ -13,11 +13,11 @@ body:
       options:
         - Lit (lit/lit-html/reactive-element/lit-element)
         - Starter Kits
-        - Localize (`@lit/localize`)
-        - SSR (`@lit-labs/ssr`)
+        - Localize (@lit/localize)
+        - SSR (@lit-labs/ssr)
         - '@lit-labs/eleventy-plugin-lit'
-        - '@lit-labs/context'
-        - '@lit-labs/react'
+        - Context (@lit-labs/context)
+        - React (@lit-labs/react)
         - '@lit-labs/observers'
         - '@lit-labs/motion'
         - '@lit-labs/task'
