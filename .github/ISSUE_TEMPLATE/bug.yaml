@@ -94,11 +94,9 @@ body:
     attributes:
       label: Is this a regression?
       multiple: false
-      description: |
-        To help us understand whether this is a recently introduced bug.
       options:
         - Yes. This used to work, but now it doesn't.
-        - No/unsure. This never worked, or I haven't tried before.
+        - No or unsure. This never worked, or I haven't tried before.
 
   - type: input
     id: version
