@@ -36,8 +36,8 @@ body:
       label: Is this a regression?
       multiple: false
       options:
-        - Yes, this used to work, but now it doesn't
-        - No/unsure. This has never worked, or I haven't tried before.
+        - Yes. This used to work, but now it doesn't.
+        - No/unsure. This never worked, or I haven't tried before.
 
   - type: input
     id: version
