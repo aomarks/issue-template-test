@@ -11,16 +11,16 @@ body:
       multiple: true
       description: Note you can select more than one.
       options:
-        - Lit (lit/lit-html/reactive-element/lit-element)
-        - Starter Kits
+        - Lit Core (lit/lit-html/reactive-element/lit-element)
+        - Starter Kits (@lit/lit-starter-(js|ts))
         - Localize (@lit/localize)
         - SSR (@lit-labs/ssr)
-        - '@lit-labs/eleventy-plugin-lit'
+        - Eleventy Plugin (@lit-labs/eleventy-plugin-lit)
         - Context (@lit-labs/context)
         - React (@lit-labs/react)
-        - '@lit-labs/observers'
-        - '@lit-labs/motion'
-        - '@lit-labs/task'
+        - Observers (@lit-labs/observers)
+        - Motion (@lit-labs/motion)
+        - Task (@lit-labs/task)
         - Other/unknown
 
   - type: input
