@@ -4,6 +4,8 @@ description: Report a bug that affects Lit or a Lit library/tool
 body:
   - type: dropdown
     id: affected
+    validations:
+      required: true
     attributes:
       label: Which packages are affected?
       options:
@@ -17,19 +19,26 @@ body:
         - '@lit-labs/observers'
         - '@lit-labs/motion'
         - '@lit-labs/task'
-        - Other
+        - Other/unknown
       multiple: true
-    validations:
-      required: true
 
   - type: textarea
     id: description
-    attributes:
-      label: Description
     validations:
       required: true
+    attributes:
+      label: Description
 
   - type: input
     id: reproduction
+    validations:
+      required: true
     attributes:
       label: Please provide a link to a minimal reproduction of the bug
+
+  - type: textarea
+    id: workaround
+    validations:
+      required: false
+    attributes:
+      label: Around
