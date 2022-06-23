@@ -53,10 +53,23 @@ body:
     attributes:
       label: Reproduction
       description: |
+        Please link to a reproduction that will help us verify and understand the bug.
+
+        For bugs that show up in the browser, please provide a link on the [lit.dev playground](https://lit.dev/playground/). For example:
+
         - [Playground example in TypeScript](https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511)
         - [Playground example in JavaScript](https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04)
+
+        For bugs that show up on the command-line, please create a public GitHub repo
       placeholder: |
+        The text should update when the button is clicked, but it doesn't:
         https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
+
+        1. git clone git@github.com:<user>/<repo>.git
+        2. cd <repo>
+        3. npm ci
+        4. npm run serve
+        5. ...
 
   - type: textarea
     id: workaround
