@@ -27,6 +27,30 @@ body:
         at EventPart.handleEvent (lit-html.js:1383:35)
         ```
 
+  - type: textarea
+    id: reproduction
+    validations:
+      required: true
+    attributes:
+      label: Reproduction
+      description: |
+        Please link to a working reproduction that will help us verify and understand the bug.
+
+        For bugs that show up in the browser, please provide a link to the lit.dev playground: [TypeScript example](https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511), [JavaScript example](https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04). Click the "Share" button to generate a URL.
+
+        For bugs that show up on the command-line, please create a public GitHub repo, and provide step-by-step instructions for cloning, setting up, and observing the bug.
+      placeholder: |
+        The text should update when the button is clicked, but it doesn't:
+        https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
+
+        ... or for command-line issues:
+
+        1. git clone git@github.com:<user>/<repo>.git
+        2. cd <repo>
+        3. npm ci
+        4. npm run serve
+        5. Observe the error "Error: Cannot do something"
+
   - type: dropdown
     id: affected
     validations:
@@ -82,30 +106,6 @@ body:
         OS: macOS 12.4
         Node version: 16.15.0
         npm version: 8.11.0
-
-  - type: textarea
-    id: reproduction
-    validations:
-      required: true
-    attributes:
-      label: Reproduction
-      description: |
-        Please link to a working reproduction that will help us verify and understand the bug.
-
-        For bugs that show up in the browser, please provide a link to the lit.dev playground: [TypeScript example](https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511), [JavaScript example](https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04). Click the "Share" button to generate a URL.
-
-        For bugs that show up on the command-line, please create a public GitHub repo, and provide step-by-step instructions for cloning, setting up, and observing the bug.
-      placeholder: |
-        The text should update when the button is clicked, but it doesn't:
-        https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
-
-        ... or for command-line issues:
-
-        1. git clone git@github.com:<user>/<repo>.git
-        2. cd <repo>
-        3. npm ci
-        4. npm run serve
-        5. Observe the error "Error: Cannot do something"
 
   - type: textarea
     id: workaround
