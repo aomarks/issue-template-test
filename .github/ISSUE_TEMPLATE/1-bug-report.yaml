@@ -22,14 +22,6 @@ body:
         - Other/unknown
       multiple: true
 
-  - type: input
-    id: version
-    validations:
-      required: true
-    attributes:
-      label: Which version are you using?
-      placeholder: 3.2.0
-
   - type: textarea
     id: description
     validations:
