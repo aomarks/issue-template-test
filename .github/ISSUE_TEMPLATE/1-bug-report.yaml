@@ -29,7 +29,7 @@ body:
       required: true
     attributes:
       label: Which version are you using?
-      description: Run e.g. `npm ls lit-element`.
+      description: Run e.g. `npm ls lit-element` to find the version you have installed.
       placeholder: 3.2.0
 
   - type: textarea
