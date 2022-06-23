@@ -52,9 +52,11 @@ body:
       required: true
     attributes:
       label: Reproduction
-      placeholder: |
+      description: |
         TypeScript: https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
         JavaScript: https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04
+      placeholder: |
+        https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
 
   - type: textarea
     id: workaround
