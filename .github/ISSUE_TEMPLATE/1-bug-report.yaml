@@ -51,7 +51,10 @@ body:
     validations:
       required: true
     attributes:
-      label: Please provide a link to a minimal reproduction of the bug
+      label: Reproduction
+      placeholder: |
+        TypeScript: https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
+        JavaScript: https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04
 
   - type: textarea
     id: workaround
