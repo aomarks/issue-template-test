@@ -60,7 +60,7 @@ body:
     validations:
       required: true
     attributes:
-      label: Browser or Node environment
+      label: Browser and/or Node environment
       description: |
         Please describe which browser and operating system you are using,  and/or if this bug affects a command-line tool, please describe your Node.js and npm versions.
       placeholder: |
