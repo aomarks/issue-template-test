@@ -81,7 +81,7 @@ body:
       description: |
         If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say so here.
       placeholder: |
-        I have worked around this problem by using the foo API instead of the bar API.
+        I have worked around this problem by registering the event handler manually with `addEventListener`.
 
         ... or:
 
