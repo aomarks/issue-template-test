@@ -97,6 +97,6 @@ body:
       placeholder: |
         I have worked around this problem by using the foo API instead of the bar API.
 
-        **or**
+        or ...
 
         I have not found a workaround.
