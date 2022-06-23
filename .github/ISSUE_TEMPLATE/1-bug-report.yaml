@@ -29,7 +29,7 @@ body:
       required: true
     attributes:
       label: Which version are you using?
-      description: Run e.g. `npm ls lit-element` to find the version you have installed.
+      description: Run e.g. `npm ls lit` to find the version you have installed.
       placeholder: 3.2.0
 
   - type: textarea
@@ -40,8 +40,6 @@ body:
       label: Description
       description: |
         What were you doing on the website or app when the bug happened? Detailed information helps maintainers reproduce and fix bugs.
-
-        Issues filed without repro steps will be closed.
       placeholder: |
         Example bug report:
         1. Log in with username/password
@@ -55,15 +53,21 @@ body:
     attributes:
       label: Reproduction
       description: |
-        Please link to a reproduction that will help us verify and understand the bug.
+        Please link to a working reproduction that will help us verify and understand the bug.
 
         For bugs that show up in the browser, please provide a link to the lit.dev playground: [TypeScript example](https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511), [JavaScript example](https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04).
         Click the "Share" button to generate a URL.
 
         For bugs that show up on the command-line, please create a public GitHub repo, and provide step-by-step instructions for cloning, installing, building, running, and observing the bug.
       placeholder: |
+        For browser issues:
+
         The text should update when the button is clicked, but it doesn't:
         https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
+
+        ---
+
+        For command-line issues:
 
         1. git clone git@github.com:<user>/<repo>.git
         2. cd <repo>
