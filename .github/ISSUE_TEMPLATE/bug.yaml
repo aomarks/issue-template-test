@@ -11,7 +11,21 @@ body:
       description: |
         Please describe the bug in as much detail as possible. Include what you expected to happen, and what actually happened. If you have an error message, please include as much of the error message as possible.
       placeholder: |
-        When I use the foo API, I get the following error.
+        When I register an event listener on a button like this:
+
+        ```html
+        <button @click=${this._onClickButton}>Click me</button>
+        ```
+
+        I would expect the `_onClickButton` event handler to fire when the button is clicked.
+
+        However, clicking on the button doesn't fire the event handler, and I see the following error in the console:
+
+        ```
+        repro.js:23 Uncaught TypeError: Cannot read properties of undefined (reading 'numClicks')
+        at XRepro._onClickButton (repro.js:23:24)
+        at EventPart.handleEvent (lit-html.js:1383:35)
+        ```
 
   - type: dropdown
     id: affected
