@@ -45,18 +45,26 @@ body:
         Failing in 3.2.0, worked in 3.1.0
 
   - type: textarea
+    id: environment
+    validations:
+      required: true
+    attributes:
+      label: Description
+      description: |
+        Please describe the bug in as much detail as possible. Include what you expected to happen, and what actually happened. If you have an error message, please include as much of the error message as possible.
+      placeholder: |
+        Chrome 103.0.5060.53
+
+  - type: textarea
     id: description
     validations:
       required: true
     attributes:
       label: Description
       description: |
-        What were you doing on the website or app when the bug happened? Detailed information helps maintainers reproduce and fix bugs.
+        Please describe the bug in as much detail as possible. Include what you expected to happen, and what actually happened. If you have an error message, please include as much of the error message as possible.
       placeholder: |
-        Example bug report:
-        1. Log in with username/password
-        2. Click "Messages" on the left menu
-        3. Open any message in the list
+        When I use the foo API, I get the following error.
 
   - type: textarea
     id: reproduction
@@ -89,7 +97,7 @@ body:
     attributes:
       label: Workaround
       description: |
-        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say "I have not found a workaround".
+        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say so here.
       placeholder: |
         I have worked around this problem by using the foo API instead of the bar API.
 
