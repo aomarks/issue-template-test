@@ -22,6 +22,14 @@ body:
         - Other/unknown
       multiple: true
 
+  - type: input
+    id: version
+    validations:
+      required: true
+    attributes:
+      label: Which version are you using?
+      placeholder: lit-element@3.2.0
+
   - type: textarea
     id: description
     validations:
@@ -29,12 +37,17 @@ body:
     attributes:
       label: Description
 
-  - type: input
+  - type: textarea
     id: reproduction
     validations:
       required: true
     attributes:
       label: Please provide a link to a minimal reproduction of the bug
+    placeholder: |
+      Example bug report:
+      1. Log in with username/password
+      2. Click "Messages" on the left menu
+      3. Open any message in the list
 
   - type: textarea
     id: workaround
