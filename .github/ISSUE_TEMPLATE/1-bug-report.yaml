@@ -9,14 +9,14 @@ body:
       options:
         - lit/lit-html/reactive-element/lit-element
         - Starter Kits
-        - @lit/localize
-        - @lit-labs/ssr
-        - @lit-labs/eleventy-plugin-lit
-        - @lit-labs/context
-        - @lit-labs/react
-        - @lit-labs/observers
-        - @lit-labs/motion
-        - @lit-labs/task
+        - \@lit/localize
+        - \@lit-labs/ssr
+        - \@lit-labs/eleventy-plugin-lit
+        - \@lit-labs/context
+        - \@lit-labs/react
+        - \@lit-labs/observers
+        - \@lit-labs/motion
+        - \@lit-labs/task
         - Other
       multiple: true
     validations:
