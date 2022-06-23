@@ -2,6 +2,27 @@ name: 🐛 Bug Report
 description: Report a bug that affects Lit or a Lit library/tool
 
 body:
+  - type: dropdown
+    id: affected
+    validations:
+      required: true
+    attributes:
+      label: Which package(s) are affected?
+      multiple: true
+      description: Note you can select more than one.
+      options:
+        - Lit Core (lit/lit-html/reactive-element/lit-element)
+        - Context (@lit-labs/context)
+        - Eleventy Plugin (@lit-labs/eleventy-plugin-lit)
+        - Localize (@lit/localize)
+        - Motion (@lit-labs/motion)
+        - Observers (@lit-labs/observers)
+        - React (@lit-labs/react)
+        - SSR (@lit-labs/ssr)
+        - Starter Kits (@lit/lit-starter-(js|ts))
+        - Task (@lit-labs/task)
+        - Other/unknown
+
   - type: textarea
     id: description
     validations:
@@ -50,27 +71,6 @@ body:
         3. npm ci
         4. npm run serve
         5. Observe the error "Error: Cannot do something"
-
-  - type: dropdown
-    id: affected
-    validations:
-      required: true
-    attributes:
-      label: Which package(s) are affected?
-      multiple: true
-      description: Note you can select more than one.
-      options:
-        - Lit Core (lit/lit-html/reactive-element/lit-element)
-        - Context (@lit-labs/context)
-        - Eleventy Plugin (@lit-labs/eleventy-plugin-lit)
-        - Localize (@lit/localize)
-        - Motion (@lit-labs/motion)
-        - Observers (@lit-labs/observers)
-        - React (@lit-labs/react)
-        - SSR (@lit-labs/ssr)
-        - Starter Kits (@lit/lit-starter-(js|ts))
-        - Task (@lit-labs/task)
-        - Other/unknown
 
   - type: dropdown
     id: regression
