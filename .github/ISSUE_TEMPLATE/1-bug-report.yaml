@@ -71,14 +71,10 @@ body:
 
         For bugs that show up on the command-line, please create a public GitHub repo, and provide step-by-step instructions for cloning, setting up, and observing the bug.
       placeholder: |
-        For browser issues:
-
         The text should update when the button is clicked, but it doesn't:
         https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
 
-        ---
-
-        For command-line issues:
+        ... or for command-line issues:
 
         1. git clone git@github.com:<user>/<repo>.git
         2. cd <repo>
@@ -97,6 +93,6 @@ body:
       placeholder: |
         I have worked around this problem by using the foo API instead of the bar API.
 
-        or ...
+        ... or:
 
         I have not found a workaround.
