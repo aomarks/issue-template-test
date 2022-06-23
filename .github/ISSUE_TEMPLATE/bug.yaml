@@ -72,6 +72,21 @@ body:
         4. npm run serve
         5. Observe the error "Error: Cannot do something"
 
+  - type: textarea
+    id: workaround
+    validations:
+      required: true
+    attributes:
+      label: Workaround
+      description: |
+        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say so here.
+      placeholder: |
+        I have worked around this problem by using the foo API instead of the bar API.
+
+        ... or:
+
+        I have not found a workaround.
+
   - type: dropdown
     id: regression
     validations:
@@ -106,18 +121,3 @@ body:
         OS: macOS 12.4
         Node version: 16.15.0
         npm version: 8.11.0
-
-  - type: textarea
-    id: workaround
-    validations:
-      required: true
-    attributes:
-      label: Workaround
-      description: |
-        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say so here.
-      placeholder: |
-        I have worked around this problem by using the foo API instead of the bar API.
-
-        ... or:
-
-        I have not found a workaround.
