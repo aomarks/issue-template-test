@@ -12,9 +12,9 @@ body:
     validations:
       required: true
     attributes:
-      label: Which package(s) are you using?
+      label: Which packages are you using?
       multiple: true
-      description: Note: you can select more than one.
+      description: Note you can select more than one.
       options:
         - Lit Core (lit/lit-html/reactive-element/lit-element)
         - Context (@lit-labs/context)
@@ -27,6 +27,26 @@ body:
         - Starter Kits (@lit/lit-starter-(js|ts))
         - Task (@lit-labs/task)
         - Other/unknown
+
+  - type: dropdown
+    id: regression
+    validations:
+      required: true
+    attributes:
+      label: Is this a regression?
+      multiple: true
+      options:
+        - Yes, this used to work, but now it doesn't
+        - No/unsure. I haven't seen this issue working before.
+
+  - type: input
+    id: version
+    validations:
+      required: true
+    attributes:
+      label: Which version are you using?
+      description: Run e.g. `npm ls lit` to find the version you have installed.
+      placeholder: 3.2.0
 
   - type: textarea
     id: description
