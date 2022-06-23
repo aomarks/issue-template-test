@@ -2,17 +2,12 @@ name: 🐛 Bug Report
 description: Report a bug that affects Lit or a Lit library/tool
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report.
-
   - type: dropdown
     id: affected
     validations:
       required: true
     attributes:
-      label: Which packages are you using?
+      label: Which package(s) are affected?
       multiple: true
       description: Note you can select more than one.
       options:
@@ -44,9 +39,10 @@ body:
     validations:
       required: true
     attributes:
-      label: Which version are you using?
-      description: Run e.g. `npm ls lit` to find the version you have installed.
-      placeholder: 3.2.0
+      label: Affected versions
+      description: What version are you using, and f this is a regression, what is the last known version that worked? Run e.g. `npm ls lit` to check your installed version.
+      placeholder: |
+        Failing in 3.2.0. Worked in 3.1.0.
 
   - type: textarea
     id: description
