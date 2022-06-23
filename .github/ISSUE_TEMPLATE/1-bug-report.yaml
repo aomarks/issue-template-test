@@ -12,9 +12,9 @@ body:
     validations:
       required: true
     attributes:
-      label: Which packages are you using?
+      label: Which package(s) are you using?
       multiple: true
-      description: Note you can select more than one.
+      description: Note: you can select more than one.
       options:
         - Lit Core (lit/lit-html/reactive-element/lit-element)
         - Context (@lit-labs/context)
@@ -36,17 +36,18 @@ body:
       label: Is this a regression?
       multiple: true
       options:
-        - Yes, this used to work, but now it doesn't
-        - No/unsure. I haven't seen this issue working before.
+        - Yes. This used to work, but now it doesn't
+        - No/unsure. This has never worked, or I didn't try before now.
 
   - type: input
     id: version
     validations:
       required: true
     attributes:
-      label: Which version are you using?
+      label: Version information
       description: Run e.g. `npm ls lit` to find the version you have installed.
-      placeholder: 3.2.0
+      placeholder: |
+        This worked in lit-element@3.1.0, but stopped working in lit-element@3.2.0.
 
   - type: textarea
     id: description
