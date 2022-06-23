@@ -60,14 +60,14 @@ body:
     validations:
       required: true
     attributes:
-      label: Environment
+      label: Browser/OS/Node environment
       description: |
-        Please describe which browser and operating system you are using,  and/or if this bug affects a command-line tool, please describe your Node.js and npm versions.
+        Please describe which browser and operating system you are using, and/or if this bug affects a command-line tool, please describe your Node and npm versions.
       placeholder: |
         Browser: Chrome 103.0.5060.53
         OS: macOS 12.4
-        Node.js version: 16.15.0
-        NPM version: 8.11.0
+        Node version: 16.15.0
+        npm version: 8.11.0
 
   - type: textarea
     id: reproduction
