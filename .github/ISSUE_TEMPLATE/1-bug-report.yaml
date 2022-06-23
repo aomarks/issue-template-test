@@ -84,7 +84,7 @@ body:
         2. cd <repo>
         3. npm ci
         4. npm run serve
-        5. ...
+        5. Observe the error "Error: Cannot do something"
 
   - type: textarea
     id: workaround
@@ -93,10 +93,10 @@ body:
     attributes:
       label: Workaround
       description: |
-        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say so.
+        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say "I have not found a workaround".
       placeholder: |
         I have worked around this problem by using the foo API instead of the bar API.
 
-        or...
+        ---
 
         I have not found a workaround.
