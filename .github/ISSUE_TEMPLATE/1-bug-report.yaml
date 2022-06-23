@@ -37,7 +37,7 @@ body:
       multiple: true
       options:
         - Yes, this used to work, but now it doesn't
-        - No/unsure. I haven't seen this issue working before.
+        - No/unsure. This has never worked, or I haven't tried before.
 
   - type: input
     id: version
