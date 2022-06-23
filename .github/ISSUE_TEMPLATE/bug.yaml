@@ -79,7 +79,7 @@ body:
     attributes:
       label: Workaround
       description: |
-        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say so here.
+        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please write "I have not found a workaround".
       placeholder: |
         I have worked around this problem by registering the event handler manually with `addEventListener`.
 
@@ -94,6 +94,8 @@ body:
     attributes:
       label: Is this a regression?
       multiple: false
+      description: |
+        To help us understand whether this is a recently introduced bug.
       options:
         - Yes. This used to work, but now it doesn't.
         - No/unsure. This never worked, or I haven't tried before.
@@ -104,7 +106,7 @@ body:
       required: true
     attributes:
       label: Affected versions
-      description: What version are you using, and if this is a known regression, what is the last known version that worked? Run e.g. `npm ls lit` to check your installed version.
+      description: Please specify which version of the package you are using, and if this is a known regression, what is the last known version that worked? Run e.g. `npm ls lit` to check your installed version.
       placeholder: |
         Failing in 3.2.0, worked in 3.1.0
 
