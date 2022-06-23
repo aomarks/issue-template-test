@@ -62,8 +62,9 @@ body:
     attributes:
       label: Browser or Node environment
       description: |
-        Please describe which browser and operating system you are using. If this bug affects
-        a command-line tool, please also describe your Node and NPM versions.
+        Please describe which browser and operating system you are using and/or
+        if this bug affects a command-line tool, please describe your Node and
+        NPM versions.
       placeholder: |
         Browser: Chrome 103.0.5060.53
         OS: macOS 12.4
