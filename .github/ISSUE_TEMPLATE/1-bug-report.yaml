@@ -69,7 +69,7 @@ body:
 
         For bugs that show up in the browser, please provide a link to the lit.dev playground: [TypeScript example](https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511), [JavaScript example](https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04). Click the "Share" button to generate a URL.
 
-        For bugs that show up on the command-line, please create a public GitHub repo, and provide step-by-step instructions for cloning, installing, building, running, and observing the bug.
+        For bugs that show up on the command-line, please create a public GitHub repo, and provide step-by-step instructions for cloning, setting up, and observing the bug.
       placeholder: |
         For browser issues:
 
