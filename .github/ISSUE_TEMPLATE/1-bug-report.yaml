@@ -1,11 +1,11 @@
-name: Bug Report
+name: 🐛 Bug Report
 description: Report a bug that affects Lit or a Lit library/tool
 
 body:
   - type: dropdown
     id: affected
     attributes:
-      label: Which @angular/* package(s) are the source of the bug?
+      label: Which packages are affected?
       options:
         - lit/lit-html/reactive-element/lit-element
         - Starter Kits
