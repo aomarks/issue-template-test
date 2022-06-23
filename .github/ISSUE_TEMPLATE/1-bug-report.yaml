@@ -23,6 +23,17 @@ body:
         - Task (@lit-labs/task)
         - Other/unknown
 
+  - type: dropdown
+    id: regression
+    validations:
+      required: true
+    attributes:
+      label: Is this a regression?
+      multiple: true
+      options:
+        - Yes, this used to work, but now it doesn't
+        - No/unsure. I haven't seen this issue working before.
+
   - type: input
     id: version
     validations:
