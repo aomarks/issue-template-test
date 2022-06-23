@@ -42,7 +42,7 @@ body:
       label: Affected versions
       description: What version are you using, and f this is a regression, what is the last known version that worked? Run e.g. `npm ls lit` to check your installed version.
       placeholder: |
-        Failing in 3.2.0, worked in 3.1.0.
+        Failing in 3.2.0, worked in 3.1.0
 
   - type: textarea
     id: description
