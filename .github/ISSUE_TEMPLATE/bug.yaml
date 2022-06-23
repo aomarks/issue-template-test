@@ -60,11 +60,15 @@ body:
     validations:
       required: true
     attributes:
-      label: Description
+      label: Browser or Node environment
       description: |
-        Please describe the bug in as much detail as possible. Include what you expected to happen, and what actually happened. If you have an error message, please include as much of the error message as possible.
+        Please describe which browser and operating system you are using. If this bug affects
+        a command-line tool, please also describe your Node and NPM versions.
       placeholder: |
-        Chrome 103.0.5060.53
+        Browser: Chrome 103.0.5060.53
+        OS: macOS 12.4
+        Node version: 16.15.0
+        NPM version: 8.11.0
 
   - type: textarea
     id: reproduction
