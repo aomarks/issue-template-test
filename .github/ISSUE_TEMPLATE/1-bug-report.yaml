@@ -78,6 +78,14 @@ body:
   - type: textarea
     id: workaround
     validations:
-      required: false
+      required: true
     attributes:
-      label: Around
+      label: Workaround
+      description: |
+        If you have found a workaround for this problem, please explain it here. If you have not found a workaround, please say so.
+      placeholder: |
+        I have worked around this problem by using the foo API instead of the bar API.
+
+        or...
+
+        I have not found a workaround.
