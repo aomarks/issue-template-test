@@ -7,7 +7,9 @@ body:
     validations:
       required: true
     attributes:
-      label: Which packages are affected?
+      label: Which packages are you using?
+      multiple: true
+      description: Note you can select more than one.
       options:
         - lit/lit-html/reactive-element/lit-element
         - Starter Kits
@@ -20,7 +22,6 @@ body:
         - '@lit-labs/motion'
         - '@lit-labs/task'
         - Other/unknown
-      multiple: true
 
   - type: input
     id: version
