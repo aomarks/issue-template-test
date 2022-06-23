@@ -1,0 +1,74 @@
+name: 🦄 Feature Request
+description: Request a new feature for Lit or a Lit library/tool.
+
+body:
+  - type: dropdown
+    id: affected
+    validations:
+      required: true
+    attributes:
+      label: Which package is this a feature request for?
+      multiple: true
+      description: Note you can select more than one.
+      options:
+        - Lit Core (lit/lit-html/reactive-element/lit-element)
+        - Context (@lit-labs/context)
+        - Eleventy Plugin (@lit-labs/eleventy-plugin-lit)
+        - Localize (@lit/localize)
+        - Motion (@lit-labs/motion)
+        - Observers (@lit-labs/observers)
+        - React (@lit-labs/react)
+        - SSR (@lit-labs/ssr)
+        - Starter Kits (@lit/lit-starter-(js|ts))
+        - Task (@lit-labs/task)
+        - Other/unknown
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+      description: |
+        Please describe the feature request in as much detail as possible. Include what you expected to happen, and what actually happened. If you have an error message, please include as much of the error message as possible.
+      placeholder: |
+        When I register an event listener on a button like this:
+
+        ```html
+        <button @click=${this._onClickButton}>Click me</button>
+        ```
+
+        I would expect the `_onClickButton` event handler to fire when the button is clicked.
+
+        However, clicking on the button doesn't fire the event handler, and I see the following error in the console:
+
+        ```
+        repro.js:23 Uncaught TypeError: Cannot read properties of undefined (reading 'numClicks')
+        at XRepro._onClickButton (repro.js:23:24)
+        at EventPart.handleEvent (lit-html.js:1383:35)
+        ```
+
+  - type: textarea
+    id: alternatives
+    validations:
+      required: true
+    attributes:
+      label: Alternatives and workarounds
+      description: |
+        Please describe the feature request in as much detail as possible. Include what you expected to happen, and what actually happened. If you have an error message, please include as much of the error message as possible.
+      placeholder: |
+        When I register an event listener on a button like this:
+
+        ```html
+        <button @click=${this._onClickButton}>Click me</button>
+        ```
+
+        I would expect the `_onClickButton` event handler to fire when the button is clicked.
+
+        However, clicking on the button doesn't fire the event handler, and I see the following error in the console:
+
+        ```
+        repro.js:23 Uncaught TypeError: Cannot read properties of undefined (reading 'numClicks')
+        at XRepro._onClickButton (repro.js:23:24)
+        at EventPart.handleEvent (lit-html.js:1383:35)
+        ```
