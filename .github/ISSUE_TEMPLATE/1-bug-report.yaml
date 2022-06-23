@@ -29,6 +29,7 @@ body:
       required: true
     attributes:
       label: Which version are you using?
+      description: Run e.g. `npm ls lit-element`.
       placeholder: 3.2.0
 
   - type: textarea
