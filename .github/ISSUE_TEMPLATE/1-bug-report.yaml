@@ -55,12 +55,9 @@ body:
       description: |
         Please link to a reproduction that will help us verify and understand the bug.
 
-        For bugs that show up in the browser, please provide a link on the [lit.dev playground](https://lit.dev/playground/). For example:
+        For bugs that show up in the browser, please provide a link on the [lit.dev playground](https://lit.dev/playground/): [TypeScript example](https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511), [JavaScript example](https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04).
 
-        - [Playground example in TypeScript](https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511)
-        - [Playground example in JavaScript](https://lit.dev/playground/#gist=2d20e91832d3f98332bf23ced55bea04)
-
-        For bugs that show up on the command-line, please create a public GitHub repo
+        For bugs that show up on the command-line, please create a public GitHub repo, and provide step-by-step instructions for cloning, installing, building, running, and observing the bug.
       placeholder: |
         The text should update when the button is clicked, but it doesn't:
         https://lit.dev/playground/#gist=b90fc1b4d2ee57120763d2e7db934511
